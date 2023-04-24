@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'SMS_Dashboard';
+
+  sidebar:boolean=true;
+  sidebarToggle(){
+this.sidebar=!this.sidebar;
+  }
 }
